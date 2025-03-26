@@ -1,4 +1,4 @@
-package org.com.message.handler;
+package org.com.message.mqtt.handler;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;

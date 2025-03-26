@@ -1,4 +1,4 @@
-package org.com.message.service;
+package org.com.message.mqtt.service;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.integration.mqtt.inbound.MqttPahoMessageDrivenChannelAdapter;
