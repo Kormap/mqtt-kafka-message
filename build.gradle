@@ -22,9 +22,13 @@ dependencies {
     implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.6.0'
     implementation 'org.springdoc:springdoc-openapi-starter-webmvc-api:2.6.0'
 
+    // MQTT 관련 의존성 주입
     implementation 'org.springframework.integration:spring-integration-mqtt' // MQTT
     implementation 'org.springframework.boot:spring-boot-starter-websocket'  // WebSocket
     implementation "com.hivemq:hivemq-mqtt-client:1.3.5"
+
+    // Kafka 관련 의존성 주입
+    implementation 'org.springframework.kafka:spring-kafka'
 
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'

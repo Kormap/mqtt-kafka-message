@@ -1,4 +1,4 @@
-package org.com.message.config;
+package org.com.message.mqtt.config;
 
 import lombok.extern.slf4j.Slf4j;
 import org.eclipse.paho.client.mqttv3.MqttConnectOptions;

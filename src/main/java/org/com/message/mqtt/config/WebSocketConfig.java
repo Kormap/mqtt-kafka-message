@@ -1,7 +1,7 @@
-package org.com.message.config;
+package org.com.message.mqtt.config;
 
 import lombok.RequiredArgsConstructor;
-import org.com.message.handler.MqttWebSocketHandler;
+import org.com.message.mqtt.handler.MqttWebSocketHandler;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.socket.config.annotation.EnableWebSocket;
 import org.springframework.web.socket.config.annotation.WebSocketConfigurer;
