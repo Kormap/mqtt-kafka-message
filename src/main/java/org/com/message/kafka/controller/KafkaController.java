@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class KafkaController {
     private final KafkaProducer producer;
 
-    @PostMapping("publish")
+    @PostMapping("/publish")
     public String sendMessage(@RequestParam("message") String message) {
         this.producer.sendMessage(message);
         return "Kafka Message sent successfully";
